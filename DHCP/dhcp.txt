@@ -1,0 +1,3 @@
+DHCP Server
+
+We can see two packets involved in this process. First the client(0.0.0.0) requests for ip which can be seen in the first packet i.e DHCP request packet. Since, it was already connected beforehand to the same network so it requests the same ip address as before(192.168.1.77). Then, the DHCP server assigns the ip address to the client as requested which can  be seen in the second packet i.e DHCP ACK packet. Here, the DHCP server assigns ip address(192.168.1.77), subnet mask(255.255.255), Router i.e default gateway(192.168.1.254) etc...
